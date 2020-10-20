@@ -4,21 +4,21 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
+
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/android1"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_baseline_map_24"
+            android:title="Lugares Recomendados" />
+
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/android2"
-            android:title="@string/menu_gallery" />
-        <item
-        android:id="@+id/nav_slideshow"
-        android:icon="@drawable/android3"
-        android:title="@string/menu_slideshow" />
-        <item
-            android:id="@+id/itmmBuscar"
-            android:icon="@drawable/android4"
-            android:title="Buscar_Datos" />
+            android:icon="@drawable/ic_baseline_linked_camera_24"
+            android:title="Galeria" />
+
+            <item
+                android:id="@+id/nav_contactame"
+                android:icon="@drawable/ic_baseline_mail_24"
+                android:title="Mapa Turistico" />
+
     </group>
 </menu>
